@@ -1,10 +1,10 @@
-package main
+package xinconf
 
 import (
 	"errors"
 
+	"github.com/gz4z2b/xinconf/conftype/xinviper"
 	"github.com/gz4z2b/xinconf/types"
-	"github.com/gz4z2b/xinconf/xinviper"
 )
 
 var Err_NotSupport = errors.New("not support")
