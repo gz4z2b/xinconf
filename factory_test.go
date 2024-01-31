@@ -1,11 +1,10 @@
-package main
+package xinconf_test
 
 import (
 	"testing"
 
-	"github.com/fsnotify/fsnotify"
-	"github.com/gin-gonic/gin"
 	"github.com/go-playground/assert/v2"
+	"github.com/gz4z2b/xinconf"
 	"github.com/gz4z2b/xinconf/types"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
@@ -61,7 +60,7 @@ func TestNewXinConf(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := NewXinConf(tt.args.conf)
+			got, err := xinconf.NewXinConf(tt.args.conf)
 			require.NoError(t, err)
 			var result Result
 			err = got.Unmarshal(tt.args.key, &result)
@@ -72,19 +71,19 @@ func TestNewXinConf(t *testing.T) {
 }
 
 func TestChangeConf(t *testing.T) {
-	type Conf struct {
-		Host string `yaml:"host"`
-	}
-	viper := viper.New()
-	viper.AddConfigPath("conf")
-	viper.SetConfigName("dev")
-	viper.SetConfigType("yaml")
-	err := viper.ReadInConfig()
-	require.NoError(t, err)
-	viper.OnConfigChange(func(in fsnotify.Event) {
-		t.Log("配置文件发生变更")
-		t.Log(in)
-	})
-	server := gin.Default()
-	server.Run(":18081")
+	// type Conf struct {
+	// 	Host string `yaml:"host"`
+	// }
+	// viper := viper.New()
+	// viper.AddConfigPath("conf")
+	// viper.SetConfigName("dev")
+	// viper.SetConfigType("yaml")
+	// err := viper.ReadInConfig()
+	// require.NoError(t, err)
+	// viper.OnConfigChange(func(in fsnotify.Event) {
+	// 	t.Log("配置文件发生变更")
+	// 	t.Log(in)
+	// })
+	// server := gin.Default()
+	// server.Run(":18081")
 }

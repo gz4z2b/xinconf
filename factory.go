@@ -1,4 +1,4 @@
-package main
+package xinconf
 
 import (
 	"errors"
