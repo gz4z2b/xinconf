@@ -29,10 +29,6 @@ func NewViperConf(viper *viper.Viper, logger logertypes.XinLogger) types.XinConf
 // Unmarshal 对配置解析成对象
 func (v *ViperConf) Unmarshal(key string, val any) error {
 	err := v.viper.UnmarshalKey(key, val)
-	v.logger.Info("获取配置",
-		logertypes.NewField("key", key),
-		logertypes.NewField("val", val),
-	)
 	return err
 }
 
