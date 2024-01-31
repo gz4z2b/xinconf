@@ -1,4 +1,4 @@
-package xinconf_test
+package main
 
 import (
 	"testing"
@@ -6,7 +6,6 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/assert/v2"
-	"github.com/gz4z2b/xinconf"
 	"github.com/gz4z2b/xinconf/types"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
@@ -62,7 +61,7 @@ func TestNewXinConf(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got, err := xinconf.NewXinConf(tt.args.conf)
+			got, err := NewXinConf(tt.args.conf)
 			require.NoError(t, err)
 			var result Result
 			err = got.Unmarshal(tt.args.key, &result)
