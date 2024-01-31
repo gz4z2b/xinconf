@@ -1,0 +1,14 @@
+{"level":"INFO","ts":"2024-01-31T10:39:32.816+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":""},"traceId":"f708d4e4-bfe1-11ee-94e3-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:40:03.415+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":""},"traceId":"0945f682-bfe2-11ee-adc9-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:40:09.694+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":0},"traceId":"0d04011a-bfe2-11ee-b415-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:41:31.191+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":""},"traceId":"3d9781f8-bfe2-11ee-a7a5-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:41:33.538+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":0},"traceId":"3efda018-bfe2-11ee-9e19-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:41:47.666+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":""},"traceId":"47696462-bfe2-11ee-92d1-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:41:50.331+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":0},"traceId":"48fff1b0-bfe2-11ee-8f10-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:42:11.109+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":""},"traceId":"556281fc-bfe2-11ee-b2fa-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:42:14.405+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":0},"traceId":"57596638-bfe2-11ee-bd89-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:42:23.294+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":""},"traceId":"5ca5b8b2-bfe2-11ee-b586-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:42:26.491+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":0},"traceId":"5e8d9366-bfe2-11ee-ab3b-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:43:26.675+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":""},"traceId":"826ce5a2-bfe2-11ee-a5cb-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:43:28.203+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"","Port":0},"traceId":"835612c2-bfe2-11ee-b80f-acde48001122"}
+{"level":"INFO","ts":"2024-01-31T10:46:11.544+0800","caller":"zap/logger.go:22","msg":"获取配置","key":"db.mysql","val":{"Host":"127.0.0.1","Port":3317},"traceId":"e4b1df42-bfe2-11ee-baf5-acde48001122"}
